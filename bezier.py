@@ -1,6 +1,7 @@
 # P(t)=P0+(1-t)P1, for 0<=t<=1
 # P(t)=(1-t^2)P0+2t(1-t)P1+t^2P2
 # generalize to Bezier using Bernstein basis coefficients
+# Imports
 import numpy as np
 import math
 import matplotlib.pyplot as plt
