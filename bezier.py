@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 def combi(n, k):
     return math.factorial(n)/(math.factorial(k)*math.factorial(n-k))
 
+# Bernstein basis coefficients
 def bernstein(n, i, t):
     return combi(n, i) * (t ** i) * ((1-t) ** (n-i))
 
